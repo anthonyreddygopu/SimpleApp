@@ -2,7 +2,7 @@
 * spark-submit --class SimpleApp gopu-project-1.0.jar */
 import org.apache.spark.sql.{Row, SaveMode, SparkSession}
 
-object SimpleApp {
+object SimpleApp{
   def main(args: Array[String]): Unit = {
    val logFile = "C:/Users/Spark/README.md" // Should be some file on your system
    val spark = SparkSession
