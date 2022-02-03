@@ -4,7 +4,7 @@ import org.apache.spark.sql.SparkSession
 
 object ExAccumulator  {
   def main(args: Array[String]): Unit = {
-    val logFile = "D:/Projects/Spark_Scala_Hive/data/kv.txt" // Should be some file on your system
+    val logFile = "D:/Projects/SimpleApp/Data/kv.txt" // Should be some file on your system
     val spark = SparkSession
       .builder
       .appName("Example on Accumulators")
