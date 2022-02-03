@@ -17,7 +17,7 @@ object SimpleApp  {
     val numAs = logData.filter(line => line.contains("a")).count()
     val numBs = logData.filter(line => line.contains("b")).count()
     println(s"Lines with a: $numAs, Lines with b: $numBs")
-    println("Anthony Reddy G-opu")
+    println("Anthony Reddy G-opu Anthony Reddy")
     spark.stop()
   }
 }
